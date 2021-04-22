@@ -3,8 +3,8 @@ import contentfulImport from "contentful-import";
 const options = {
   contentFile: "exportedData.json",
   spaceId: "lcqx3493y7vb",
-  environmentId: "migration-test",
-  managementToken: "CFPAT-Q6uOr07d42Hm-mt2NJUqz-agnT0HUX0n8lJepliqgC0",
+  environmentId: "migration-test", //push data to this env
+  managementToken: "API key read README.MD",
 };
 
 contentfulImport(options);
