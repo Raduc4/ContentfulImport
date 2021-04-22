@@ -1,0 +1,17 @@
+{
+  "name": "cms-migration",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "import": "node import/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful-export": "^7.12.1",
+    "contentful-import": "^8.1.1",
+    "contentful-migration": "^4.1.1"
+  }
+}
